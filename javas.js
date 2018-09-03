@@ -1,8 +1,8 @@
 function login(){
     var login = document.getElementById('login').value;
     var password = document.getElementById('password').value;
-
-    if(login=="Strzalka" && password == "Strzalka"){
+    var password = password.toLocaleUpperCase();
+    if(login=="admin" && password=="admin"){
         window.open("mainpage.html");
     }else if(login==0 || password==0) {
         document.getElementById("wrongPassword").innerHTML="You can not left empty fields.";

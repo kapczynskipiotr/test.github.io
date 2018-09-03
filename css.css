@@ -79,9 +79,7 @@ body{
     margin-top:-40px;
     font-size:30px;
 }
-
-@media only screen and (max-width: 900px) {
-    body {
-        background-image: url("https://ocdn.eu/images/zapytaj/NWQ7MDMsMCwxMmMsMCwxOzAzLDEyYywwLDAsMQ__/fcd2c0001d9cf7f1fefc9272cb17cf77.jpg");
-}
-}
+#date{
+    position
+    display: flex;
+    justify-content: center;

@@ -1,0 +1,72 @@
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="./javas.js"></script>
+       <link rel="stylesheet" type="text/css" href="./css.css">
+       <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+       <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+       
+       <title>strona gowna</title>
+
+   </head>
+   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Elone's Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./tesla.html">Tesla</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./quotation.html">Quotation</a>
+                          </li>
+                          <li class="nav-item mt-auto active">
+                            <a class="nav-link" href="./quiz.html">Quiz</a>
+                          </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" >
+                                <a class="nav-link" href=./logowanie.html><button class="btn btn-primary">LOGOUT</button></a>
+                          </ul>
+                      </div>
+                    </nav>
+
+
+    <div class="gra">
+    Lets play the game</br>
+    How much do you know about Elon Musk ?</br>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+    <form id ="Q" name="Q">
+    <div class="questions">
+    1. Is PayPal Elon's company ?</br>
+    <input type="radio" name="question1" value="Y" id=question1y> Y</br>
+    <input type="radio" name="question1" value="N" id=question1n> N</br>
+    2. What means  a shortcut of SpaceX ?</br>
+    <input type="radio" name="question2" value="Y" id="question2y"> Space Exploration Technologies </br>
+    <input type="radio" name="question2" value="N"> Space Exploring Techniques</br>
+    3. What Elon Musk is doing right now ? </br>
+    <input type="radio" name="question3" value="Y" id="question3y"> Probably works </br>
+    <input type="radio" name="question3" value="N"> looking at you</br>
+    <button type="btn btn-default" onclick="return quiz()" id="checkit">checkit</button>
+    </form>
+    <button type="btn btn-default" id="reset" onclick="reset()" >reset</button>
+    </div>
+  </div>
+    <div class="col-sm-6 resultt"></br>
+      <p id="resultt">???</p>
+      <img class="none" id="photo1" src="https://icdn2.digitaltrends.com/image/rocket-crash.jpg">
+      <img class="none" id="photo2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Space_Shuttle_Atlantis_launches_from_KSC_on_STS-132_side_view.jpg/1125px-Space_Shuttle_Atlantis_launches_from_KSC_on_STS-132_side_view.jpg">
+      <img class="none" id="photo3" src="https://s.yimg.com/ny/api/res/1.2/JUzVhiR2RrtT1WmM15wpyw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAwO2lsPXBsYW5l/http://globalfinance.zenfs.com/images/SG_AHTTP_AP_FINANCIALTIMES/5f2b2943df40450993def25f5786a1cb_original.jpg">
+      <img class="none" id="photo4" src="https://usatftw.files.wordpress.com/2018/02/ap_space_spacex_new_rocket_97189852.jpg?w=1000&h=600&crop=1">
+       
+    </div>
+      
+   
+  </div>
+  </div>
+   </body>
+   

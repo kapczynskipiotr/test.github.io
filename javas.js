@@ -2,7 +2,7 @@ function login(){
     var login = document.getElementById('login').value;
     var password = document.getElementById('password').value;
 
-    if(login=="Tadeusz" && password == "Norek"){
+    if(login=="Strzalka" && password == "Strzalka123"){
         window.open("mainpage.html");
     }else if(login==0 || password==0) {
         document.getElementById("wrongPassword").innerHTML="You can not left empty fields.";

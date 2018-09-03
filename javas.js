@@ -1,7 +1,7 @@
 function login(){
     var login = document.getElementById('login').value;
     var password = document.getElementById('password').value;
-    var password = password.toLocaleUpperCase();
+    var password = password.toLowerCase();
     if(login=="admin" && password=="admin"){
         window.open("mainpage.html");
     }else if(login==0 || password==0) {

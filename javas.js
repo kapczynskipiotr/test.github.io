@@ -3,9 +3,10 @@ function wynik(){
 }
 
 var ruletko = ["When Henry Ford made cheap, reliable cars people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked.","Patience is a virtue, and I'm learning patience. It's a tough lesson.","Great companies are built on great products. Elon Musk","Great companies are built on great products. Elon Musk"];
-    function timer(){
-        var timer = new Date();
-        document.getElementById("timer").innerHTML = timer;
+       function date(){
+var timer = new Date();
+        var timerx = timer.getDay() + "/09/2017";
+        document.getElementById("date").innerHTML=timerx;;
     }
 
 

@@ -1,16 +1,3 @@
-function login(){
-    var login = document.getElementById('login').value;
-    var password = document.getElementById('password').value;
-    var password = password.toLowerCase();
-    if(login=="admin" && password=="admin"){
-        window.open("mainpage.html");
-    }else if(login==0 || password==0) {
-        document.getElementById("wrongPassword").innerHTML="You can not left empty fields.";
-        }else{
-        document.getElementById("wrongPassword").innerHTML="Login or password incorrect. Try Again.";
-        }
-}        
-
 function wynik(){
     var liczymy = document.getElementById("wynik").innerText=ruletko[Math.floor(Math.random() * 4)];
 }

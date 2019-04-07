@@ -7,6 +7,10 @@ body{
     height:100%;
     width:100%;
 }
+.navbar{
+    position:fixed;
+    width:100%;
+}
 .logowanko{
     height: 100%;
     width:100%;
@@ -91,6 +95,25 @@ body{
     font-size:20px;
     margin-top:50%;
 }
+.player{
+    position:absolute;
+    top:24%;
+    left:37%;
+    height:400;
+    width:400;
+    transition:1s;
+    opacity:1;
+}
+.mainImg{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    right:150%;
+    transition:15s;
+}
+
+
+
 @media only screen and (max-width: 900px) {
     body {
         background-image: url("https://ocdn.eu/images/zapytaj/NWQ7MDMsMCwxMmMsMCwxOzAzLDEyYywwLDAsMQ__/fcd2c0001d9cf7f1fefc9272cb17cf77.jpg");

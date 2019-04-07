@@ -72,5 +72,14 @@ var ruletko = ["When Henry Ford made cheap, reliable cars people said, 'Nah, wha
         }
 }        
 
-
+function PlaySound() {
+    console.log('zalpl');
+    var thissound=document.getElementById('redarmy')
+    thissound.load();
+    thissound.play()
+    var major;
+    major = document.getElementById('mainImg').style.right="0"
+    var opacity;
+    opacity = document.getElementById('transparent').style.opacity="0"
+}
 
